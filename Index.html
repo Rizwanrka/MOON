@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rizwan Ali">
+        <meta name="description" content="This page contains all the things I am learning
+        how to create as I learn HTML.">
+        <title>My first web broser.</title>
+<link rel="icon" href="img/html5.png" type="Images/x-icon">
+
+<style>
+    html {
+    font: 22px
+}
+body {
+    background-color: #333;
+    color: whitesmoke;
+}
+a {
+    color: aliceblue
+}
+a :visited {
+    color: lightgray
+}
+a:hover, a:active {
+  color: #eee 
+}
+table, tr, th, td, caption {
+border: 1px solid #eee
+font-family: 'Coutior new', courier, monospace
+border-collapse: collapse;
+padding: 0.5re
+}
+</style>
+    </head>
+    <body>
+        <header>
+        <h1>
+            My Goals for the year.
+        </h1>
+
+        <nav>
+            <ul>
+            <li> <a href="#html"> learn HTML </a></li>
+            <li> <a href="#vacation"> Planning a Vacation </a></li>
+            <li> <a href="#contact"> Contact me </a> </li>
+            </ul>
+        </nav>
+
+        </header>
+
+        <hr>
+       <main>
+       <article  id="html">                         
+    
+        <h2> Hi, I am ready to learn html.</h2>
+        <p>This is my first web page, I want to share with you who want to know the HTML 
+            he or she can understand my my this wabpage. 
+        </p>
+        <section>
+            <h3>HTML5</h3>
+        <img src="img/html5.png" width="200" title="html logo">
+        <figure>
+            <figcaption>
+                This is example of html5.
+            </figcaption>
+            &lt;h1&gt;Hellow world&lt;/h1&gt;
+        </figure>
+        </section>
+        <section>
+
+        <h2>My daily schedule.</h2>
+        <p>let me tell you how...</p>
+        <ol>
+        <li>...I learn more about web dev.</li>
+        <li>...I plan out my schedule.</li>
+        <li>...I use resources from <abbr title="Mozilla Development Network"> 
+            <a href="https//Mozilla.developers.org">MDN</a>  
+        </abbr></li>
+        </ol>
+    </section>
+    <aside>
+        <details>
+            <summary>
+                Guess the <mark> number of hours </mark>  I code per day.
+            </summary>
+            <p> I start at 8 am and I write code <mark>3 hours </mark> mornings </p>
+        </details>
+    </aside>
+    <br>
+    <table>
+        <tbody>
+        <caption>my daily schedule </caption>
+        <thead>
+        <tr>
+            <th>&nbsp;</th>
+                <th scope="row">Time</th>
+                <th scope="row"> Activity </th>
+        </tr>
+    </thead>
+        <tr>
+            <th scope="row">Morning </th>
+            <td>
+                <time  datetime="08:00">8am</time>-<time datetime="11:00"> 11am</time>
+            </td>    
+                <td> Write code </td>   
+            
+        </tr>
+        <tr>
+            <th scope="row"> Break </th>
+            <td>
+                <time  datetime="11:00"> 11am</time>-
+                <time datetime="12:00"> 12am</time>
+                <td> eat lucnh</td>   
+            </td>
+        </tr>
+        <tr>
+            <Th scope="row"> After noon </Th>
+            <td>
+                <time  datetime="12:00">12pm</time>-
+                <time datetime="17:00"> 5pm</time>
+                <td>Study for other courses</td>   
+            </td>
+        </tr>
+        
+        <tr> <th scope="row"> Evening </th>
+            <td rowspan="2"> all other times </td>
+            <td>
+                free time 
+            </td>
+            </tr>
+            <tr>
+                <th scope="row"> Night </th>
+                <td> sleep </td>
+            </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3" > and that's what I do everyday, 
+                5 days a weak. Just eat, sleep, code.. and 
+                recharge!
+            </td>
+        </tr>
+
+    </tfoot>
+    </table>
+       </article>
+
+    <article id="vacation">
+
+        <h2>I am also planning a vacation.</h2>
+        <p>I have been working  ha/rd and <em> really need a gateawy</em>.</p>
+        <p>I live in Lucknow so I want to visit Imambara.</p>
+        <section>
+        <h2>Places I'd like to visit.</h2>
+        <ul>
+            <figure>
+            <img src="img/_Clocktower.jpg" width="300" alt="Khalsa Inter college class"
+            title="This is my nov 22 class">
+            <figcaption>
+                This is a Clocktower.
+            </figcaption>
+        </figure>
+           <li>
+            <p>I have heard good things about Lucknow <abbr title="Uttar Pradesh">UP</abbr>.</p>
+           </li>
+       <li>
+        <p>I have heard good things about going hear.</p>
+       </li></ul>  
+    </section>
+        <!---TODO: Add more places--->
+        <section>
+       <ul><li> <address>
+            Imambara,Big and Small, Hazratganj <br> Tunday Kabab, and Lulu Mall.
+        </address>
+        <figure>
+            <img src="img/_Sham.jpg.png" width="300">
+        <figcaption>
+            Thi is effect of Sham-e-Awadh.
+        </figcaption>
+        </figure>  
+        <figure>
+            <img src="img/hope.webp" alt="photo">
+            <figcaption>My love </figcaption>
+        </figure>      
+    </li></ul>
+    </ul>
+        <h2>Places I want to avoid.</h2>
+        <dl>
+            <dt>Tunday Kabab</dt>
+            <dd>Lucknow Old City</dd>
+            <dt>Imambara</dt>
+            <dd> Big and Small </dd>
+            <dt>Hazratganj</dt>
+            <dd>Paush area of Lucknow</dd>
+        </dl>
+        <p>Anywhere polution,<strong> no way!</strong>.</p>
+    </section>
+    </article>
+</main>
+<hr>
+
+<article id="contact">
+    <h2>Contact me</h2>
+    <p>I'd really like to hrear from you!</p> 
+    <form action="https://httpbin.org/get" method="get">
+<fieldset>
+    <legend>Personal Info</legend>        
+   <p>
+    <label for="first"> First Name </label>
+    <input type="text" name="firstname" id="firstname"
+     placeholder="RIZWAN" autocomplete="on" required autofocus> 
+   </p>
+   <p>
+    <label for="lastname"> Last Name: </label>
+    <input type="text" name="lastname" id="lastname"
+     placeholder="KHAN" autocomplete="on" required> 
+   </p>
+   <p>
+    <label for="password"> Password: </label>
+    <input type="password" name="password" id="password"
+     placeholder="your secret" required> 
+   </p>
+   <p>
+    <label for="phone"> phone: </label>
+    <input type="tel" name="phone" id="phone"
+     placeholder="5555555555" 
+     pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required> 
+   </p>
+   <p>
+    <label for="decade"> Favourite decade: </label>
+    <input type="number" name="decade" id="decade"
+     min="1950" max="2020" step="10" value="1980"> 
+   </p>
+<p>
+    <label for="cofee"> Fvourite Cofee: </label>
+<select name="cofee" id="cofee" multiple size="5">
+    <optgroup label="Cofees" >
+        <option value="regular cofee">Regula Cofee </option>
+        <option value="ice cofee"> Ice Cofee </option>
+    </optgroup>
+    <optgroup label="Expresso Drinks">
+        <option value="latte" selected> Latte </option>
+        <option value="cappuccino">Cappuccino</option>
+        <option value="cortado">Cortado</option>
+        <option value="americano">Americano</option>
+        <option value="other">Other</option>
+    </optgroup>            
+    </select>
+   </p>
+</fieldset>
+
+<fieldset>
+    <legend> What is your favouritr food </legend>
+    <p>
+        <input type="radio" name="food" id="tacos" value="tacos">
+        <label for="tacos">Tacos</label>
+    </p>
+    <p>
+        <input type="radio" name="food" id="pizza" value="pizza">
+        <label for="pizza">Pizza</label>
+    </p>
+    <p>
+        <input type="radio" name="food" id="other" value="other">
+        <label for="other">Other</label>
+    </p>
+</fieldset>
+
+<fieldset>
+    <legend>Do you have pets?</legend>
+    <p>
+        <input type="checkbox" name="pets" id="dog" value="dog">
+        <label for="dog">Dog</label>
+    </p>
+    <p>
+        <input type="checkbox" name="pets" id="cat" value="cat">
+        <label for="cat">Cat</label>
+    </p>
+    <p>
+        <input type="checkbox" name="pets" id="fish" value="fish">
+        <label for="fish">Fish</label>
+    </p>
+    <p>
+        <input type="checkbox" name="pets" id="otherPet" value="otherPet">
+        <label for="otherPet">Other</label>
+    </p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Send Me A Note </legend>
+    <label for="message">Your message:</label>
+    <br>
+    <textarea name="message" id="message" cols="30" rows="10" 
+    placeholder="Type you message here"></textarea>
+</fieldset>
+<br>
+<button type="submit">Submit</button>
+<button type="submit" formaction="http://httpbin.org/post"
+ formmethod="post">Post</button>
+<button type="reset">Recet</button>
+
+</form>
+</article>
+   
+   <hr>
+
+<footer>
+        
+        <hr>
+       <p>&lt;&lt;&lt; &copy; <a href="about.html">Rizwan Ali</a> &gt;&gt;&gt;</p>
+ <p>
+    <a href="#">Back to top </a>
+ </p>
+</footer> 
+    </body>
+</html>
